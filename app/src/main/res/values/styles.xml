@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="SchiffeVersenkenBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+    </style>
+
+
+    <!-- Eigene Themes -->
+
+
+    <style name="mButtons">
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">#031E7F</item>
+        <item name="android:gravity">end</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:height">48dp</item>
+    </style>
+
+    <style name="DividerLarge">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/separator_gray</item>
+    </style>
+
+    <style name="DividerSmall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="TextNormal">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/primaryTextColor
+        </item>
+    </style>
+
+</resources>

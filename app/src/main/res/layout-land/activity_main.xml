@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:id="@+id/container_gameover_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_settings"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_bluetooth"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn_settings"
+        android:background="@null"
+        android:padding="2dp"
+        android:scaleType="centerInside"
+        />
+
+    <com.jona.schiffeversenken.utility.SimpleViewPagerIndicator
+        android:id="@+id/page_indicator"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp">
+    </com.jona.schiffeversenken.utility.SimpleViewPagerIndicator>
+
+    <TextView
+        android:id="@+id/tv_connectionstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="2dp"
+        android:text="@string/not_connected"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/tv_gamestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_connectionstate"
+        android:padding="2dp"
+        android:text="@string/state_placing_ships"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

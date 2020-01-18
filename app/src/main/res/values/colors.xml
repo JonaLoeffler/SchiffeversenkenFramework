@@ -1,0 +1,20 @@
+<resources>
+
+    <color name="primaryColor">#2196f3</color>
+    <color name="secondaryColor">#1976d2</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#424242</color>
+
+    <color name="accentColor">#1565c0</color>
+    <color name="uiElementColor">#000000</color>
+
+    <color name="separator_gray">#ADADAD</color>
+    <color name="btn_active">#5FCAED</color>
+    <color name="btn_inactive">#C4C4C4</color>
+    <color name="ocean_blue">#2B65EC</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="light_background">@android:color/background_light</color>
+    <color name="dark_background">@android:color/background_dark</color>
+</resources>
